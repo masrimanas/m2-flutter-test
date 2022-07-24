@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "370224409308",
+    "project_id": "flutter-test-m2",
+    "storage_bucket": "flutter-test-m2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370224409308:android:45080968f7c9afe2356219",
+        "android_client_info": {
+          "package_name": "com.masrimanas.answers_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "370224409308-9sbdkd0itect2rrbdb5va79m0r3est56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCEgg71l8CdYH1ufMgI83zqyHA2qweW20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "370224409308-9sbdkd0itect2rrbdb5va79m0r3est56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
