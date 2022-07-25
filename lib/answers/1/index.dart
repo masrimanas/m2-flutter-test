@@ -55,7 +55,7 @@ late FirebaseMessaging fcm = FirebaseMessaging.instance;
 // Now, we can receive our first push notification by sending it from this page
 // https://console.firebase.google.com/project/_/notification
 
-// before that we need to add these codea into main method in main.dart
+// before that we need to add these codes into main method in main.dart
 
 // WidgetsFlutterBinding.ensureInitialized();
 // await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
