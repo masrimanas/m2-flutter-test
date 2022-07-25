@@ -8,12 +8,11 @@
 // because I'm still in the process of learning, if I face some errors related to
 // it I will find so many references by googling it.
 
-import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 // bloc start
-abstract class DemoEvent extends Equatable {}
+abstract class DemoEvent {}
 
 class DemoEventSwitch extends DemoEvent {
   final int index;
@@ -23,9 +22,6 @@ class DemoEventSwitch extends DemoEvent {
     this.index,
     this.status,
   );
-
-  @override
-  List<Object?> get props => [index, status];
 }
 
 class DemoBloc extends Bloc<DemoEvent, List<bool>> {
