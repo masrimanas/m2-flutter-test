@@ -2,14 +2,15 @@
 // some code on how you use it.
 
 //
-// answer: I chose Bloc for my apps' state manager. It is a popular package
+// answer: I chose Bloc for my apps' state manager. It is a well-known package
 // for its quality in developing a scalable and maintainable flutter app. It is
 // in top 3 most popular flutter state manager package and has big community,
 // because I'm still in the process of learning, if I face some errors related to
 // it I will find so many references by googling it.
 
 import 'package:flutter/material.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_bloc/flutter_bloc.dart'
+    show Bloc, BlocProvider, ReadContext, SelectContext;
 
 // bloc start
 abstract class DemoEvent {}

@@ -12,7 +12,7 @@ void main() {
 // be null.
 
 // We can define a variable without its value with this operator since with this
-// operator we tell our compiler this variable is nullable.
+// operator we tell the compiler this variable is nullable.
 String? name;
 
 // then assign its variable in the next line with a function
@@ -45,7 +45,7 @@ void printIt() {
   print(manas.job);
 
   // But, This line of code above will cause runtime error of unhandled exception
-  // because, the 'job' property of this object is null but we tell compiler
+  // because the 'job' property of this object is null but we tell compiler
   // this object's property has value by using post-fix operator.
 }
 
@@ -72,13 +72,13 @@ final anotherVillager = Villager()
 // d. … ==> It is spread operator. We can used this operator to insert multiple
 // element in a list to another list. When using this operator, I feel like I am
 // grabbing all elements in a list and put it into a bag, then place the bag of
-// list's elements to another list. It can also be used in Set and Map, btw.
+// elements list into another list. It can also be used in Set and Map, btw.
 
 List<int> numbersLeft = [1, 2, 3];
 List<int> numbersMid = [4, 5, 6];
 List<int> numbersRight = [7, 8, 9];
 
-// We can assign all elements of above list to a new variable of list using this
+// We can assign all elements of above list into a new variable of list using this
 // cool operator.
 List<int> numbers = [...numbersLeft, ...numbersMid, ...numbersRight];
 
@@ -130,7 +130,7 @@ class GenerycCollection<T> {
 }
 
 void printGenerycCollection(List<String> item) {
-  // This line will cause an runtime error, because we mix the type in our list.
+  // This line will cause a runtime error, because we mix the type in our list.
   // final badGenCol = GenerycCollection()..collection = <int>[...item];
 
   // This code will working fine
@@ -149,7 +149,7 @@ class _PrivetClass {
   // We can't access this properties directly
   String? _privetProps;
 
-  // we need a getter to access _privetProps properties
+  // we need a getter to access _privetProps properties from outside
   String get privetProps => _privetProps!;
 
   // we need a setter to change _privetProps value.
@@ -180,8 +180,8 @@ abstract class Phone {
 }
 
 //
-// j. this ==> If I got to describe what 'this' keyword, I'd say it is a keyword
-// that can be use to access a property or method of current instance.
+// j. this ==> If I got to describe what is 'this' keyword, I'd say it is a
+// keyword that can be use to access a property or method of current instance.
 // The I googled, this definition is better => The this keyword is used to refer
 // the current class object. It indicates the current instance of the class,
 // methods, or constructor (https://www.javatpoint.com/dart-this-keyword).
@@ -202,7 +202,6 @@ class Character {
     // 'this' keyword refer to the properties of current class. When object of
     // this class is instantiated. The properties of this class will have the
     // given values to constructor's paramaters.
-
     this.name = name;
     this.role = role;
   }
